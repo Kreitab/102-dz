@@ -8,7 +8,7 @@ class plot(QtWidgets.QMainWindow):
     def __init__(self):
         super(plot,self).__init__()
         self.ui=Ui_MainWindow()
-        self.ui=setupUI(self)
+        self.ui.setupUI(self)
         self.ui.button.clicked.connect(self.btClicked)
     def btnClicked(self):
         try:
